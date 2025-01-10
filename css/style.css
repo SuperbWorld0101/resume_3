@@ -1,0 +1,27 @@
+#links{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+#links li{
+	float:left;
+	margin:0 auto;
+}
+
+#links li a{
+	display:block;
+	text-align:center;
+	padding:15px 0 8px 0;
+	background:navy;
+	color:white;
+	text-decoration:none;
+}
+
+#links li a:hover{
+	border-radius:10px;
+	text-decoration:underline yellow;
+	color:rgb(200,100,100);
+	background:white;
+}
+	
