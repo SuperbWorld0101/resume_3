@@ -1,3 +1,7 @@
+body{
+    background: linear-gradient(to bottom,  rgba(243,226,199,1) 0%,rgba(193,158,103,1) 50%,rgba(182,141,76,1) 51%,rgba(233,212,179,1) 100%);
+}
+
 #links{
 	list-style-type:none;
 	margin:0;
@@ -6,7 +10,7 @@
 
 #links li{
 	float:left;
-	margin:0 auto;
+	margin:0 15px;
 }
 
 #links li a{
@@ -20,8 +24,24 @@
 
 #links li a:hover{
 	border-radius:10px;
-	text-decoration:underline yellow;
+	text-decoration:underline;
 	color:rgb(200,100,100);
-	background:white;
+	background:yellow;
+}
+
+h2{
+	clear:both;
+}
+
+.specifics {
+  font-family: "Playwrite IS", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.highlight{
+	background:rgb(100,100,50);
+	color:white;
 }
 	
