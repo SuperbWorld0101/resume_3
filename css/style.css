@@ -100,11 +100,15 @@ h2 {
 footer{
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 700;
   font-style: normal;
   width:30%;
   background:white;
   float:right;
+}
+
+footer h3{
+	color:navy;
 }
 
 
