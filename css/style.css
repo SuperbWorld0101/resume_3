@@ -71,7 +71,6 @@ body {
 .highlight {
   font-size:1.5em;
   font-family: "Oswald", serif;
-  font-weight: <weight>;
   font-style: normal;
 }
 
@@ -85,7 +84,6 @@ body {
 h2 {
   font-size:2em;
   font-family: "Playfair Display", serif;
-  font-weight: <weight>;
   font-style: normal;
   width:100%;
   background:pink;
