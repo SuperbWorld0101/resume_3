@@ -38,7 +38,6 @@ h2{
 
 .specifics {
   font-family: "Playwrite IS", serif;
-  font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
 }
@@ -72,7 +71,6 @@ body {
 .highlight {
   font-size:1.5em;
   font-family: "Oswald", serif;
-  font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
 }
@@ -81,14 +79,12 @@ body {
   font-size:1.2em;
   font-weight:700;
   font-family: "Quicksand", serif;
-  font-optical-sizing: auto;
   font-style: normal;
 }
 
 h2 {
   font-size:2em;
   font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
   width:100%;
@@ -98,7 +94,6 @@ h2 {
 	
 footer{
   font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
   width:30%;
