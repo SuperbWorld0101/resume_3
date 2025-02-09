@@ -79,14 +79,14 @@ function init() {
 function polyMap() {
   const map = new google.maps.Map(document.getElementById("map3"), {
     zoom: 5,
-    center: { lat: 24.886, lng: -70.268 },
+    center: { lat: 42.374908366015966, lng: -71.11818443084599 },
     mapTypeId: "terrain",
   });
   const triangleCoords = [
-    { lat: 25.774, lng: -80.19 },
-    { lat: 18.466, lng: -66.118 },
-    { lat: 32.321, lng: -64.757 },
-    { lat: 25.774, lng: -80.19 },
+    { lat: 43.44, lng: -71.11},
+    { lat: 35.66, lng: -68.98 },
+    { lat: 50.78, lng: -64.757 },
+    { lat: 44.21, lng: -72.10 },
   ];
   const bermudaTriangle = new google.maps.Polygon({
     paths: triangleCoords,
