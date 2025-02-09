@@ -71,6 +71,7 @@ h1{
   margin:0;
   text-align:center;
   padding:1em 0 1em 0;
+  font-size:2em;
 }
 
 .highlight {
@@ -128,12 +129,12 @@ img{
 	left:0;
   }
   #links li{
-  float:left;
-  margin:0.6em 1.2em;
+    float:left;
+    margin:0.6em 1.2em;
   }
   body {
-  width:70%;
-  margin:0 auto;
+    width:70%;
+    margin:0 auto;
   }
   #links li a{
 	font-size:1.2em;
