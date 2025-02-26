@@ -104,14 +104,3 @@ function polyMap() {
 google.maps.event.addDomListener(window,'load',polyMap);
 google.maps.event.addDomListener(window,'load',initMap);
 google.maps.event.addDomListener(window,'load',init);
-/*<script>
-      var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -39.9, lng: -116.4},
-          zoom: 8
-        });
-      }
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"
-    async defer></script>*/
