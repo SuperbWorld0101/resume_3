@@ -130,7 +130,7 @@ img{
   }
   #links li{
     float:left;
-    margin:0.6em 1.2em;
+    margin:0.6em 1.01em;
   }
   body {
     width:70%;
@@ -147,4 +147,16 @@ img{
 #Education,#EducationMore{
   text-align:center;
 }
-	
+
+#form{
+  position:relative;
+  font-family:"Playwrite IS", "Times New Roman";
+  margin:0 auto;
+  width:100%;
+  text-align:center;
+}
+
+label{
+ position:relative;
+ margin:0 auto;
+}
