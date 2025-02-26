@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <script type="text/javascript" src="behavior.js"></script>
+  <script defer type="text/javascript" src="behavior.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Fjalla+One&family=Oswald:wght@200..700&family=Playwrite+IS:wght@100..400&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -48,14 +48,14 @@
   <div>
 	<footer id="footer">
 	  <h3>Contact Information:</h3>
-	  <p><strong>My phone number: </strong>+86 13280489639</p>
-	  <p><strong>My email address: </strong></p>
-	    <ul>
-		  <li>xsun53@hawk.iit.edu</li>
-		  <li>13280489639@163.com</li>
-		  <li>664848796@qq.com</li>
-		</ul>
+	  <button id='phone'><p><strong>My phone number</strong></p></button>
+	  <button id='email'><p><strong>My email address</strong></p></button>
 	</footer>
   </div>
+  <form method="post">
+	<div><label>Your suggestions:</label></div>
+	<textarea name="suggestions" rows="5" placeholder="Please leave your valuable suggestions.Thanks." id="textarea"></textarea>
+	<div><input type="submit" value="Inform Me!" id='submit'></div>
+  </form>
 </body>
 </html>
