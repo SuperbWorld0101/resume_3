@@ -47,7 +47,7 @@ h2{
 }
 
 .specifics {
-  font-family: "Playwrite IS", serif;
+  font-family: "Playwrite IS", "Times New Roman";
   font-weight: 300;
   font-style: normal;
 }
@@ -76,20 +76,20 @@ h1{
 
 .highlight {
   font-size:1.5em;
-  font-family: "Oswald", serif;
+  font-family: "Oswald", "Times New Roman";
   font-style: normal;
 }
 
 #links {
   font-size:1.2em;
   font-weight:700;
-  font-family: "Quicksand", serif;
+  font-family: "Quicksand", "Times New Roman";
   font-style: normal;
 }
 
 h2 {
   font-size:2em;
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", "Times New Roman";
   font-style: normal;
   width:100%;
   background:pink;
@@ -97,7 +97,7 @@ h2 {
 }
 	
 footer{
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", "Times New Roman";
   font-weight: 700;
   font-style: normal;
   width:70%;
