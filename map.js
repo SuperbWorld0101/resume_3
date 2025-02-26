@@ -5,13 +5,12 @@ function initMap() {
   var mapOptions = {
     center: location,
     zoom: 15,
-	mapTypeId: google.maps.MapTypeId.SATELLITE,
-	mapTypeControlOptions: {
-		position: google.maps.ControlPosition.BOTTOM_CENTER
+    mapTypeId: google.maps.MapTypeId.SATELLITE,
+    mapTypeControlOptions: {
+      position: google.maps.ControlPosition.BOTTOM_CENTER
 	}
   };
   var mymap = new google.maps.Map(el, mapOptions);
-  //var harvard = { lat: 42.374908366015966, lng: -71.11818443084599 };
   const contentString = "<h2>Harvard University</h2> a private Ivy League research university in Cambridge, Massachusetts, United States. Founded October 28, 1636, and named for its first benefactor, the Puritan clergyman John Harvard, it is the oldest institution of higher learning in the United States."
   const infowindow = new google.maps.InfoWindow({
     content: contentString,
