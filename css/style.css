@@ -519,3 +519,18 @@ iframe{
   height:40%;
 }
 
+
+
+.slideshow {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.slideshow ul {
+	margin:0;
+}
+
+img{
+	width:60%;
+	height:50%;
+}

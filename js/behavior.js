@@ -26,3 +26,8 @@ $('[data-rating] .star').on('click', function() {
     .parent().addClass('is-voted');
 });
 
+$(document).ready(function(){
+	  $('.bxslider').bxSlider({
+		mode: 'fade'
+		});
+	});
