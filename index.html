@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Xueying Sun:Project 2</title>
+  <title>Xueying Sun:Project 3</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
@@ -9,44 +9,12 @@
   <link rel="stylesheet" type="text/css" href="css/mediaquery.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Fjalla+One&family=Oswald:wght@200..700&family=Playwrite+IS:wght@100..400&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <script async src="js/behavior.js"></script>
 </head>
 <body>
   <h1>Xueying Sun's Resume</h1>
-  <!-- mobile nav bar -->
-  <div class="title-bar topbar-center-logo-mobile" data-responsive-toggle="topbar-center-logo" data-hide-for="medium">
-    <div class="title-bar-left">
-      <div class="title-bar-title"><img src="https://placehold.it/100x39" alt="" /></div>
-    </div>
-    <div class="title-bar-right">
-      <button class="menu-icon" type="button" data-toggle="topbar-center-logo"></button>
-    </div>
-  </div>
-  <!-- /mobile nav bar -->
-
-  <!-- medium and larger nav bar -->
-  <div class="top-bar topbar-center-logo" id="topbar-center-logo">
-    <div class="top-bar-left">
-      <ul class="menu-vertical-medium-horizontal-1">
-        <li><a href="index.html">Resume</a></li>
-        <li><a href="advantages.html">Advan</a></li>
-        <li><a href="education.html">Educ</a></li>
-      </ul>
-    </div>
-    <div class="top-bar-center">
-      <a href="#"><img src="https://placehold.it/100x39" alt="" /></a>
-    </div>
-    <div class="top-bar-right">
-      <ul class="menu-vertical-medium-horizontal">
-        <li><a href="index.html">Resume</a></li>
-        <li><a href="advantages.html">Advan</a></li>
-        <li><a href="education.html">Educ</a></li>
-      </ul>
-    </div>
-  </div>
-<!-- /medium and larger nav bar -->
-
   <nav id="container">
     <ul id="links">
       <li><a href="index.html">My Resume</a></li>
@@ -94,17 +62,90 @@
     <div><strong class="highlight">My photo: </strong></div>
     <img class='img' src="images/photo.jpeg" alt="photo for resume">
     <div><strong class="highlight">My video: </strong></div>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/1bCBfpIBgxw?si=O1iVo2tAri5ZSrEM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <div>
+	<div id="video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/1bCBfpIBgxw?si=O1iVo2tAri5ZSrEM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+	<div>
       <footer id="footer">
-	<h3>Contact Information:</h3>
-	<button id='phone'><strong>My phone number</strong></button>
-	<button id='email'><strong>My email address</strong></button>
+	    <h3>Contact Information:</h3>
+	    <button id='phone'><strong>My phone number</strong></button>
+	    <button id='email'><strong>My email address</strong></button>
       </footer>
     </div>
+	
+	<div class="card profile-card-action-icons">
+  <div class="card-section">
+    <div class="profile-card-header">
+      <div class="profile-card-avatar">
+        <img class="avatar-image" src="images/dog.jpeg" alt="Harry Manchanda">
+      </div>
+      <div class="profile-card-author">
+        <h5 class="author-title">Xueying Sun</h5>
+        <p class="author-description">A student at IIT</p>
+      </div>
+    </div>
+    <div class="profile-card-about">
+      <h5 class="about-title separator-left">About Me</h5>
+      <p class="about-content">
+        In short,I am a woman who is not very tall and has inexhaustive enthusiasm to life and all kinds of things.I work hard on this program and have got excellent grades.Hope everyone can enjoy what they are doing and have fun!
+      </p>
+      <div class="row about-skills">
+        <div class="small-6 columns">
+          <ul class="arrow">
+            <li>Coding</li>
+            <li>Swimming</li>
+            <li>Reading</li>
+          </ul>
+        </div>
+        <div class="small-6 columns">
+          <ul class="arrow">
+            <li>Maths</li>
+            <li>Physics</li>
+            <li>Cooking</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="profile-card-action">
+      <div class="action-area">
+        <a href="#" class="action-anchor has-tip bottom" data-tooltip aria-haspopup="true" data-disable-hover="false" tabindex="2" title="Like Harry Profile">
+          <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+          <span class="show-for-sr">Xueying Sun Profile</span>
+        </a>
+      </div>
+      <div class="action-area">
+        <a href="#" class="action-anchor has-tip bottom" data-tooltip aria-haspopup="true" data-disable-hover="false" tabindex="2" title="Comment on Harry Profile">
+          <i class="fa fa-comments-o" aria-hidden="true"></i>
+          <span class="show-for-sr">Comment on Xueying Sun Profile</span>
+        </a>
+      </div>
+      <div class="action-area">
+        <a href="#" class="action-anchor has-tip bottom" data-tooltip aria-haspopup="true" data-disable-hover="false" tabindex="2" title="Add Harry as a Friend">
+          <i class="fa fa-user-plus" aria-hidden="true"></i>
+          <span class="show-for-sr">Add Xueying Sun as a Friend</span>
+        </a>
+      </div>
+      <div class="action-area">
+        <a href="#" class="action-anchor has-tip bottom" data-tooltip aria-haspopup="true" data-disable-hover="false" tabindex="2" title="Send Harry a Gift">
+          <i class="fa fa-gift" aria-hidden="true"></i>
+          <span class="show-for-sr">Send Xueying Sun a Gift</span>
+        </a>
+      </div>
+      <div class="action-area">
+        <a href="#" class="action-anchor has-tip bottom" data-tooltip aria-haspopup="true" data-disable-hover="false" tabindex="2" title="Block Harry!">
+          <i class="fa fa-ban" aria-hidden="true"></i>
+          <span class="show-for-sr">Block Xueying Sun!</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+	
     <form method="post">
       <fieldset>
-	<div id='form'>
+	  <div id='form'>
 	  <div><label>Your suggestions:</label></div>
 	    <textarea name="suggestions" rows="5" placeholder="Please leave your valuable suggestions.Thanks." id="textarea"></textarea>
 	  <div><input type="submit" value="Inform Me!" id='submit'></div>
@@ -112,5 +153,171 @@
       </fieldset>
     </form>
   </div>
+  
+  <div class="translucent-form-overlay">
+  <form>
+    <h3>Let's Play Around!</h3>
+    <div class="row columns">
+      <label>Favorite
+        <input type="text" name="keyword" placeholder="items">
+      </label>
+    </div>
+    <div class="row columns">
+      <label>What kind?
+        <select name="status" type="text">
+          <option>Food</option>
+          <option value="rent">Clothes</option>
+          <option value="buy">Pet</option>
+        </select>
+      </label>
+    </div>
+    <div class="row columns">
+      <label>More specific?
+        <select name="status" type="text">
+          <option>Dog</option>
+          <option value="office">Hambergur</option>
+          <option value="building">Jacket</option>
+        </select>
+      </label>
+    </div>
+    <div class="row columns">
+      <label>Location
+        <input type="text" name="location" placeholder="location">
+      </label>
+    </div>
+    <div class="row">
+      <label class="columns small-12">Amount</label>
+      <div class="columns small-6">
+        <input type="number" min="0" name="min" placeholder="Min">
+      </div>
+      <div class="columns small-6">
+        <input type="number" min="0" name="max" placeholder="Max">
+      </div>
+    </div>
+    <button type="button" class="primary button expanded search-button">
+      Guess What?
+    </button>
+  </form>
+  </div>
+  <div class="card rating">
+    <div class="card-section">
+      <p class="ratings-card-header">Let's Rate!</p>
+      <div class="rating-block">
+        <p class="ratings-type">HTML</p>
+        <div class="rating-block-rating" data-rating>
+          <div class="star">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="37" viewBox="0 0 40 37">
+              <polygon fill="none" points="272 30 260.244 36.18 262.489 23.09 252.979 13.82 266.122 11.91 272 0 277.878 11.91 291.021 13.82 281.511 23.09 283.756 36.18" transform="translate(-252)"/>
+            </svg>
+          </div>
+          <div class="star">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="37" viewBox="0 0 40 37">
+              <polygon fill="none" points="272 30 260.244 36.18 262.489 23.09 252.979 13.82 266.122 11.91 272 0 277.878 11.91 291.021 13.82 281.511 23.09 283.756 36.18" transform="translate(-252)"/>
+            </svg>
+          </div>
+          <div class="star">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="37" viewBox="0 0 40 37">
+              <polygon fill="none" points="272 30 260.244 36.18 262.489 23.09 252.979 13.82 266.122 11.91 272 0 277.878 11.91 291.021 13.82 281.511 23.09 283.756 36.18" transform="translate(-252)"/>
+            </svg>
+          </div>
+          <div class="star">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="37" viewBox="0 0 40 37">
+              <polygon fill="none" points="272 30 260.244 36.18 262.489 23.09 252.979 13.82 266.122 11.91 272 0 277.878 11.91 291.021 13.82 281.511 23.09 283.756 36.18" transform="translate(-252)"/>
+            </svg>
+          </div>
+          <div class="star">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="37" viewBox="0 0 40 37">
+              <polygon fill="none" points="272 30 260.244 36.18 262.489 23.09 252.979 13.82 266.122 11.91 272 0 277.878 11.91 291.021 13.82 281.511 23.09 283.756 36.18" transform="translate(-252)"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="rating-block">
+        <p class="ratings-type">CSS</p>
+        <div class="rating-block-rating" data-rating>
+          <div class="star">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="37" viewBox="0 0 40 37">
+              <polygon fill="none" points="272 30 260.244 36.18 262.489 23.09 252.979 13.82 266.122 11.91 272 0 277.878 11.91 291.021 13.82 281.511 23.09 283.756 36.18" transform="translate(-252)"/>
+            </svg>
+          </div>
+          <div class="star">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="37" viewBox="0 0 40 37">
+              <polygon fill="none" points="272 30 260.244 36.18 262.489 23.09 252.979 13.82 266.122 11.91 272 0 277.878 11.91 291.021 13.82 281.511 23.09 283.756 36.18" transform="translate(-252)"/>
+            </svg>
+          </div>
+          <div class="star">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="37" viewBox="0 0 40 37">
+              <polygon fill="none" points="272 30 260.244 36.18 262.489 23.09 252.979 13.82 266.122 11.91 272 0 277.878 11.91 291.021 13.82 281.511 23.09 283.756 36.18" transform="translate(-252)"/>
+            </svg>
+          </div>
+          <div class="star">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="37" viewBox="0 0 40 37">
+              <polygon fill="none" points="272 30 260.244 36.18 262.489 23.09 252.979 13.82 266.122 11.91 272 0 277.878 11.91 291.021 13.82 281.511 23.09 283.756 36.18" transform="translate(-252)"/>
+            </svg>
+          </div>
+          <div class="star">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="37" viewBox="0 0 40 37">
+              <polygon fill="none" points="272 30 260.244 36.18 262.489 23.09 252.979 13.82 266.122 11.91 272 0 277.878 11.91 291.021 13.82 281.511 23.09 283.756 36.18" transform="translate(-252)"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+	  <div class="rating-block">
+        <p class="ratings-type">JavaScript</p>
+        <div class="rating-block-rating" data-rating>
+          <div class="star">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="37" viewBox="0 0 40 37">
+              <polygon fill="none" points="272 30 260.244 36.18 262.489 23.09 252.979 13.82 266.122 11.91 272 0 277.878 11.91 291.021 13.82 281.511 23.09 283.756 36.18" transform="translate(-252)"/>
+            </svg>
+          </div>
+          <div class="star">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="37" viewBox="0 0 40 37">
+              <polygon fill="none" points="272 30 260.244 36.18 262.489 23.09 252.979 13.82 266.122 11.91 272 0 277.878 11.91 291.021 13.82 281.511 23.09 283.756 36.18" transform="translate(-252)"/>
+            </svg>
+          </div>
+          <div class="star">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="37" viewBox="0 0 40 37">
+              <polygon fill="none" points="272 30 260.244 36.18 262.489 23.09 252.979 13.82 266.122 11.91 272 0 277.878 11.91 291.021 13.82 281.511 23.09 283.756 36.18" transform="translate(-252)"/>
+            </svg>
+          </div>
+          <div class="star">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="37" viewBox="0 0 40 37">
+              <polygon fill="none" points="272 30 260.244 36.18 262.489 23.09 252.979 13.82 266.122 11.91 272 0 277.878 11.91 291.021 13.82 281.511 23.09 283.756 36.18" transform="translate(-252)"/>
+            </svg>
+          </div>
+          <div class="star">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="37" viewBox="0 0 40 37">
+              <polygon fill="none" points="272 30 260.244 36.18 262.489 23.09 252.979 13.82 266.122 11.91 272 0 277.878 11.91 291.021 13.82 281.511 23.09 283.756 36.18" transform="translate(-252)"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <h4>Button tag</h4>
+<div class="clearfix"></div>
+<button type="button" class="button social facebook">
+  <i class="fa fa-facebook" aria-hidden="true"></i> Facebook 
+</button>
+<button type="button" class="button social twitter">
+  <i class="fa fa-twitter" aria-hidden="true"></i> Twitter 
+</button>
+<button type="button" class="button social linkedin">
+  <i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin 
+</button> 
+<div class="clearfix"></div>
+<h4>Button as an Anchor tag</h4>
+<div class="clearfix"></div>
+<a href="#" class="button social facebook">
+  <i class="fa fa-facebook" aria-hidden="true"></i> Facebook 
+</a>
+<a href="#" class="button social twitter">
+  <i class="fa fa-twitter" aria-hidden="true"></i> Twitter 
+</a>
+<a href="#" class="button social linkedin">
+  <i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin 
+</a> 
+
 </body>
 </html>
