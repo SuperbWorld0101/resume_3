@@ -25,9 +25,3 @@ $('[data-rating] .star').on('click', function() {
     .addClass(selectedCssClass)
     .parent().addClass('is-voted');
 });
-
-$(document).ready(function(){
-	  $('.bxslider').bxSlider({
-		mode: 'fade'
-		});
-	});
